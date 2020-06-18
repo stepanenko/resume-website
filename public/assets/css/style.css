@@ -301,9 +301,6 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .single-about-txt h3 {
-  font-size: 18px;
-  color: #3c4258;
-  text-transform: initial;
   line-height: 1.8;
 }
 
@@ -430,7 +427,6 @@ nav.navbar.bootsnav .navbar-toggle i {
 .timeline-horizontal-border i {
   font-size: 10px;
   color: #d92cf9;
-  margin-right: 5px;
 }
 
 span.single-timeline-horizontal {
@@ -458,7 +454,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .skill-content li {
-  list-style-type: disc;
   font-size: 15px;
   font-weight: 200;
   color: #999fb3;
@@ -466,6 +461,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .single-skill-content {
   padding-top: 60px;
+}
+
+.single-skill-content li {
+  padding: 7px;
 }
 
 .section-heading h2 {
@@ -547,7 +546,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .experience-content {
-  padding-top: 100px;
+    padding: 80px 0 0 60px;
 }
 
 .single-timeline-box {
@@ -577,12 +576,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 
 .main-timeline:before {
   content: "";
-  width: 2px;
-  height: 84%;
+  width: 1px;
+  height: 100%;
   background: #b2c1ce;
   position: absolute;
-  top: 1.5%;
-  left: 45.8%;
+  top: 5px;
+  left: 45.9%;
   z-index: -1;
 }
 
