@@ -399,8 +399,9 @@ nav.navbar.bootsnav .navbar-toggle i {
 --------------------------------------*/
 
 .education {
-  background: #f9fbfd;
   padding-top: 50px;
+  border: 1px solid #e5ebf2;
+  background: #f9fbfd;
 }
 
 .education-horizontal-timeline {
@@ -481,7 +482,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {
   font-weight: 600;
   text-transform: uppercase;
   padding-bottom: 50px;
-  border-bottom: 1px solid #e5ebf2;
 }
 
 .single-progress-txt {
