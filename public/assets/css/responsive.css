@@ -170,7 +170,7 @@
 }
 
 @media screen and (max-width: 350px) {
-  .header-text h1 {
+  .header-text h2 {
     font-size: 36px;
   }
   .navbar-header a.navbar-brand {
