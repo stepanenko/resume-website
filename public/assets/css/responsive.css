@@ -1,5 +1,6 @@
 @media screen and (max-width: 1680px) {
-} /*max-width:1680px*/
+}
+
 @media screen and (max-width: 1440px) {
   .single-about-img img {
     max-width: 100%;
@@ -8,7 +9,7 @@
   .about-list-icon {
     width: 100%;
   }
-} /*max-width:1440px*/
+}
 
 @media screen and (max-width: 1199px) {
   nav.navbar.bootsnav ul.nav > li > a {
@@ -23,10 +24,10 @@
   .experience-time span > i {
     left: -15.5%;
   }
-} /*max-width:1199px*/
+}
 
 @media screen and (max-width: 1024px) {
-} /*max-width:1024px*/
+}
 
 @media screen and (max-width: 1008px) {
   nav.navbar.bootsnav ul.nav > li.dropdown span.megamenu-title {
@@ -53,7 +54,7 @@
     a {
     margin-bottom: 15px;
   }
-} /*max-width:1008px*/
+}
 
 @media screen and (max-width: 992px) {
   nav.navbar.bootsnav .navbar-collapse.collapse.in {
@@ -72,7 +73,7 @@
     padding: 15px 0px;
     border: transparent;
   }
-} /*max-width:992px*/
+}
 
 @media screen and (max-width: 991px) {
   .experience-time-responsive {
@@ -96,7 +97,7 @@
     top: 6%;
   }
   .main-timeline:before {
-		height: 100%;
+    height: 100%;
     left: 0.5%;
   }
 
@@ -104,14 +105,15 @@
   .single-horizontal-timeline .timeline-content {
     margin: 0;
   }
-} /*max-width:991px*/
+}
 
 @media screen and (max-width: 768px) {
-} /*max-width:768px*/
+}
 
 @media screen and (max-width: 767px) {
   .single-about-img {
     max-width: 450px;
+    margin: 0 auto;
   }
   .experience-time span > i,
   .timeline-content span > i,
@@ -141,31 +143,40 @@
     max-width: 350px;
     margin: 30px auto;
   }
-} /*max-width:767px*/
+}
 
 @media screen and (max-width: 660px) {
-} /*max-width:660px*/
+}
 
 @media screen and (max-width: 640px) {
-} /*max-width:640px*/
+  .header-mobile {
+    display: block;
+  }
+}
 
 @media screen and (max-width: 580px) {
-} /*max-width:580px*/
+}
 
 @media screen and (max-width: 540px) {
   .subscribe-title h2 {
     font-size: 24px;
   }
-} /*max-width:540px*/
+}
 
 @media screen and (max-width: 480px) {
-} /*max-width:480px*/
+}
 
 @media screen and (max-width: 440px) {
-} /*max-width:400px*/
+}
 
 @media screen and (max-width: 350px) {
-} /*max-width:350px*/
+  .header-text h1 {
+    font-size: 36px;
+  }
+  .navbar-header a.navbar-brand {
+    font-size: 15px;
+  }
+}
 
 @media screen and (max-width: 320px) {
-} /*max-width:320px*/
+}

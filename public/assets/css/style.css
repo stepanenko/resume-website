@@ -1,18 +1,5 @@
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header
-3.  Welcome-hero
-4.  About me 
-5.  Education
-6.  Skill
-7.  Experience
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
-
 /*-------------------------------------
-		1.General css (Reset code)
+		General css (Reset code)
 --------------------------------------*/
 
 * {
@@ -118,7 +105,7 @@ body {
 }
 
 /*-------------------------------------
-        2. Header
+        Header
 --------------------------------------*/
 
 .top-area {
@@ -147,7 +134,7 @@ nav.navbar.bootsnav {
   color: #d92cf9;
   font-size: 20px;
   font-weight: 700;
-  padding: 33px 0px 57px;
+  padding: 35px 0px 55px;
   text-transform: uppercase;
 }
 
@@ -212,7 +199,7 @@ nav.navbar.bootsnav .navbar-toggle {
   position: relative;
   background-color: transparent;
   border: 1px solid #d92cf9;
-  padding: 10px;
+  padding: 10px 15px;
   top: 0;
 }
 
@@ -221,7 +208,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 /*-------------------------------------
-        3.  Welcome-hero
+        Welcome-hero
 --------------------------------------*/
 
 .welcome-hero {
@@ -245,7 +232,7 @@ nav.navbar.bootsnav .navbar-toggle i {
   height: 100%;
 }
 
-.header-text h2 {
+.header-text h1 {
   margin-top: 150px;
   color: #fff;
   font-size: 54px;
@@ -254,7 +241,7 @@ nav.navbar.bootsnav .navbar-toggle i {
   line-height: 1.2;
 }
 
-.header-text h2 span {
+.header-dot {
   color: #d92cf9;
 }
 
@@ -290,7 +277,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 /*-------------------------------------
-        4.  About
+        About
 --------------------------------------*/
 
 .about {
@@ -345,14 +332,12 @@ nav.navbar.bootsnav .navbar-toggle i {
   content: " ";
   top: 0;
   left: 0;
-  width: 109%;
   height: 100%;
   background: rgba(31, 44, 108, 0.3);
 }
 
 .single-about-img img {
   max-width: 500px;
-  height: 468px;
 }
 
 .about-list-icon {
@@ -395,7 +380,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 /*-------------------------------------
-        5.  Education
+        Education
 --------------------------------------*/
 
 .education {
@@ -451,7 +436,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 /*-------------------------------------
-        6.  Skills
+        Skills
 --------------------------------------*/
 
 .skill-content {
@@ -546,7 +531,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 /*-------------------------------------
-        7. Experience
+        Experience
 -------------------------------------*/
 
 .experience {
@@ -556,7 +541,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 .experience-content {
-  padding: 80px 0 0 60px;
+  padding-top: 80px;
 }
 
 .single-timeline-box {
@@ -641,7 +626,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 /*-------------------------------------
-        9. Portfolio
+        Portfolio
 --------------------------------------*/
 
 .portfolio {
@@ -722,7 +707,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 }
 
 /*-------------------------------------
-        11. Contact
+        Contact
 --------------------------------------*/
 
 .contact {
